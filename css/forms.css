@@ -1,0 +1,80 @@
+@import "default.css";
+
+.top {
+	margin-top: 80px;
+	width: 100%;
+	height: calc(100vh - 80px);
+	margin-bottom: -80px;
+	text-align: center;
+}
+
+#one {
+	background-image: url(../images/forms-bg.jpg);
+	background-position: 0px -101px;
+}
+
+#two {
+
+}
+
+.btn-next {
+	margin-top: calc(75vh);
+	display: inline-block;
+}
+.slide{
+	display:none;
+	height: calc(100vh - 80px);
+	z-index: 10;
+}
+#slide-1 {
+	background-image: url(../images/animals.png);
+}
+#slide-2 {
+	background-image: url(../images/food.jpg);
+	background-position: 0px -105px;
+}
+#slide-3 {
+	background-image: url(../images/lgbt.jpg);
+	background-position: 0px -105px;
+}
+.active-slide{
+	display:block;
+
+}
+
+.navigation {
+	z-index: 5550;
+	margin-top: 0;
+	position: relative;
+	height: calc(100vh - 80px);
+	margin-top: calc(-100vh + 80px);
+	background-color: transparent;
+}
+
+.left {
+	text-align: left;
+	width: 50%;
+	left: 0px;
+	height: calc(100vh - 80px);
+	position: absolute;
+	background-color: transparent;
+}
+
+.left > img {
+	margin-left: 1em;
+	margin-top: calc(50% - 80px);
+}
+
+.right {
+	text-align: right;
+	width: 50%;
+	right: 0px;
+	height: calc(100vh - 80px);
+	position: absolute;
+	background-color: transparent;
+}
+
+.right > img {
+	margin-right: 1em;
+	margin-top: calc(50% - 80px);
+}
